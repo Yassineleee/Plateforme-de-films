@@ -1,0 +1,179 @@
+/* src/index.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1rem;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+}
+
+/* Forms */
+form {
+  margin-bottom: 1rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.search-controls {
+  margin-bottom: 2rem;
+}
+
+.filter-options {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Movie grid */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.movie-card {
+  margin-bottom: 1rem;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Movie details */
+.movie-header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.movie-poster img {
+  max-width: 300px;
+  height: auto;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.movie-overview, .movie-trailer, .movie-cast, .similar-movies {
+  margin-bottom: 2rem;
+}
+
+.cast-list {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+}
+
+.cast-item {
+  min-width: 120px;
+}
+
+.cast-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* Messages */
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 1rem;
+}
+
+/* Account page */
+.account-links {
+  margin-top: 2rem;
+}
+
+.account-links a {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Favorites and Watch Later */
+.favorites-list, .watch-later-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.favorite-item img, .watch-later-item img {
+  width: 100%;
+  height: auto;
+}

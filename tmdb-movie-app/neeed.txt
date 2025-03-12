@@ -1,0 +1,15 @@
+first give me just the plan and how to begin , because i will ask you from many chats because the limits in the one only chats , all thats to you to understand and continue the work from autre chats
+i want a simple , effective , complete and correct frontend javascript react movie app with  The Movie Database (TMDb), JWT (JSON Web Token) and default css pour style
+what should be in :
+first an frontend authentification ( pages: signup , login)
+pages home to see the recommended movie basé sur les préférences , and trending movies , and treding tv série
+pages movie where you can see the latest movies
+pages movie where you can see the latest tv série
+below to see the lister les movies from the latest movies and button , 
+pages search : to search the movies, tv , séries etc.. , or to search d'aprés les genre et tags from tmdb.
+pages movieDetails : to let the user see the movies , description ,acteurs, genre , trailer ,vedio clips from tmdb  , autre similaire , etc from tmdb api , button to add to favorites , place to systeme to critiquer the movies .
+pages account to see your account/profile (prénom , nom , tél , email , pasword , attraction) where you can also find the (
+pages favorites to see your librairie of the movie you chose to add to favorites
+pages watch later to see your librairie of the movie you chose to add to watch later
+)
+remarque: without css right now , use vite + react , make it simple simple correcte and complete
